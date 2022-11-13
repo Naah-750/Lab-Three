@@ -1,0 +1,32 @@
+ lab_three_Q1 {
+int n = 1;
+int m = -1;
+if (n < -m)
+{
+System.out.print(n);
+}
+else {
+System.out.print(m);}
+// a. output -1
+
+int n = 1;
+int m = -1;
+if (-n >= m)
+{ System.out.print(n); }
+else { System.out.print(m); }
+//  b.output 1
+double x = 0;
+double y = 1;
+if (Math.abs(x - y) < 1)
+{ System.out.print(x); }
+else { System.out.print(y); }
+// c.output 1.0
+double x = Math.sqrt(2);
+double y = 2;
+if (x * x == y)
+{ System.out.print(x); }
+else { System.out.print(y); }
+// D.print 2.0
+System.out.println("thank u");
+}
+}
